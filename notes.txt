@@ -1,0 +1,77 @@
+AWS Admin Course 
+
+    -> Cloud Computing 
+
+        -> IT is about Application 
+
+        -> We have Applications 
+
+        -> Applications have data 
+
+        -> Data is in Servers 
+
+        -> Where are servers ? 
+
+            -> Servers are in data center 
+
+    -> Setup Data Center 
+
+        -> Time Taking 
+
+        -> Lot Of Capital Expenditure (Cost)
+
+        -> Lot Of Human Resources (people)
+
+    -> Use Cloud Data Centers 
+
+        -> Rather than Buying
+
+        -> Rent Servers / Storage / Databases / Network / Security etc 
+
+    -> Cloud Computing 
+
+        -> Cloud computing is the on-demand delivery of IT resources
+        such as servers, storage, databases, and software
+        over the internet with pay-as-you-go pricing
+
+            -> Storage 100 GB 1 Day 
+            -> Storage 200 GB 1 Day 
+            -> Storage 100 GB 7 Days 
+
+        -> Cloud Vendors 
+
+            -> Amazon - AWS (learning)
+
+            -> Microsoft - AZURE 
+
+            -> Google - GCP 
+
+            -> etc  
+
+    -> Cloud Administrator Role - Cloud Admin
+
+        -> Admin - A Cloud Administrator is responsible for 
+        Managing, Maintaining, Monitoring and Securing cloud infrastructure. 
+
+        -> In AWS, Cloud Administrator ensures that cloud resources are 
+        Available, Scalable, Secure & Cost Efficient 
+
+    -> Understand AWS Platform 
+
+        -> If you start Using it, you will Understand 
+
+    -> Cloud Offerings 
+
+        -> IAAS - Infrastructure As A Service
+
+            -> Hardware (CPU + RAM + HDD + NW)
+
+            -> Virtualization 
+
+            -> Operating System
+
+        -> PAAS - Platform As A Service
+
+        -> SAAS - Software As A Service
+
+
