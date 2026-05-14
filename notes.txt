@@ -75,3 +75,80 @@ AWS Admin Course
         -> SAAS - Software As A Service
 
 
+Class - 2
+==========
+
+    -> PAAS - Platform As A Service
+
+        -> Setup Some Application (Banking Application)
+
+        -> My Main Application Uses Database Application
+        
+        -> Backup & Secure Database Application 
+        
+        -> Install Database Application 
+
+        -> Download Database Application 
+        
+        -> Operating System
+
+        -> Virtualization     
+
+        -> Hardware (CPU + RAM + HDD + NW)
+
+    
+    -> SAAS - Software As A Service
+
+        -> Setup Some Application (Banking Application)
+
+        -> My Main Application Uses Database Application
+        
+        -> Backup & Secure Database Application 
+        
+        -> Install Database Application 
+
+        -> Download Database Application 
+        
+        -> Operating System
+
+        -> Virtualization     
+
+        -> Hardware (CPU + RAM + HDD + NW)
+
+
+    -> Public Cloud 
+
+        -> Public cloud resources are shared with multiple tenants. 
+
+    -> Private Cloud 
+
+        Private means that services are offered to selected entity only, instead of the public.
+
+    -> Hybrid Cloud 
+
+        -> Hybrid cloud is a mix of private and public cloud
+
+    
+    -> Myntra Application has infrastructure 
+
+        -> Servers                                      -> AWS EC2 
+             +                                               +
+        -> Storage                                      -> AWS S3 
+             +                                               +
+        -> Databases                Myntra              -> AWS RDS 
+             +                                               +
+        -> Network                                      -> AWS VPC 
+             +                                               +
+        -> Security                                     -> AWS IAM 
+             +                                               +
+        -> etc                                          -> etc 
+
+
+    -> To Setup AWS Free Account (6 Months Free)
+
+        -> Email ID
+        -> Mobile Number 
+        -> PAN Card 
+        -> Debit/Credit Card 
+
+    
