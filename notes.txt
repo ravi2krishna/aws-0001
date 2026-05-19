@@ -244,3 +244,9 @@ Class - 4
         -> Security Group (Watchman For Flat)
 
             -> server-level firewall which is mandatory 
+
+
+Class - 5
+==========
+
+    -> Default VPC - Workflow
