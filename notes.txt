@@ -250,3 +250,9 @@ Class - 5
 ==========
 
     -> Default VPC - Workflow
+
+Class - 6
+==========
+
+    -> Subnetting Rules 
+
