@@ -293,3 +293,9 @@ Class - 7
 	-> Coming to security of Database Servers, they should have only 
 		-> SSH traffic enabled from web servers only
 		-> Postgres Database Traffic Allowed from App Servers
+
+
+Class - 8
+==========
+
+    -> AWS EC2 Server Management 
