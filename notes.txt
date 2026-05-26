@@ -357,3 +357,36 @@ Class - 9
                 -> sudo git clone https://github.com/ravi2krishna/ecomm.git /var/www/html 
                 -> ls /var/www/html 
 
+
+Class - 10
+==========
+
+    -> Storage 
+
+        -> AWS provides three popular services for Storage
+                
+            -> Elastic Block Store (EBS)
+            -> Elastic File System (EFS)
+            -> Simple Storage Service (S3)
+
+    
+    -> Elastic Block Store (EBS)
+
+        -> Elastic Block Store (EBS) - Used for Server Storage (OS(ubuntu), Softwares(apache))
+            
+            -> It cannot be shared across multiple zones i.e multiple data centers
+
+        -> EBS Must have an Root Volume (OS Disk i.e Primary Disk)
+
+        -> EBS Optionally can have an Additional Volumes (Secondary Disk)
+
+        -> Based On the Zone, Volume will be created in the same zone where instance is launched
+
+
+        -> EBS - Limitations 
+
+            -> Using EBS we cannot get the data directly across Multiple Availability Zones
+            -> Using EBS we cannot connect to MULTIPLE INSTANCES at same time 
+            -> With EBS Volumes, you can only scale up, but NO SCALING DOWN
+            -> EBS Volumes can scale only up to TB's
+
