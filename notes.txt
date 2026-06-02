@@ -390,3 +390,49 @@ Class - 10
             -> With EBS Volumes, you can only scale up, but NO SCALING DOWN
             -> EBS Volumes can scale only up to TB's
 
+Class - 11
+==========
+
+    -> AMI's 
+
+        -> Amazon Machine Images will help you create backup process for your applications, 
+        so that you don't need to repeat the same process again 
+
+        -> When we create an AMI, we get a Snapshot 
+
+        -> In AWS terms, Snapshot is a backup copy 
+
+    -> Ecommerce App Setup 
+
+        -> sudo apt update -y 
+        -> sudo apt install apache2 -y 
+        -> ls /var/www/html 
+        -> sudo rm -r /var/www/html/* 
+        -> ls /var/www/html 
+        -> sudo git clone https://github.com/ravi2krishna/ecomm.git /var/www/html 
+        -> ls /var/www/html 
+
+    -> Create AMI (For Root Volumes)
+
+    -> Create Snapshot (For Additional Volumes)
+
+    -> Launch Windows Server
+
+    -> EFS - Elastic File System 
+
+        -> Amazon Elastic File System (EFS) provides a simple, scalable 
+            fully managed elastic NFS file system for AWS ec2 
+
+        -> EFS can scale to petabytes in size
+
+        -> Using EFS we can directly get the data across Multiple Availability Zones
+        
+        -> Using EFS we can connect to multiple instances at the same time
+
+        -> EFS uses port "2049" for NFS file system, not for instances
+
+        -> We cannot use EFS as a root volume
+
+        -> Using EFS 
+
+            -> https://www.royalcyber.com/wp-content/uploads/2023/05/cloud-file-storage.png
