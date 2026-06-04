@@ -485,3 +485,12 @@ Class - 12
         -> S3 Static Web hosting
             
             -> You can use Amazon S3 to host a static website.
+
+Class - 13
+==========
+
+    -> S3 Storage Classes
+
+    -> S3 Lifecycle Policy 
+
+    -> S3 Versioning 
