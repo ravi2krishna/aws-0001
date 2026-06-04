@@ -494,3 +494,9 @@ Class - 13
     -> S3 Lifecycle Policy 
 
     -> S3 Versioning 
+
+
+Class - 14
+==========
+
+    -> S3 Web Hosting 
