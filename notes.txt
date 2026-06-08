@@ -500,3 +500,54 @@ Class - 14
 ==========
 
     -> S3 Web Hosting 
+
+
+Class - 15
+==========
+
+    -> Database Storage 
+
+    -> Before Databases we need to know concepts of Security 
+
+    -> Databases Often Hold Sensitive Information
+
+    -> In Terms Of Security 
+
+        -> Identity Level - IAM Service 
+
+        -> Datacenter Level - Advanced Networking Concepts 
+
+
+    -> AWS IAM 
+
+        -> AWS Identity and Access Management (IAM) is a web service that helps you 
+        "securely control access" to AWS resources.
+
+            -> IAM Users 
+            -> IAM Groups 
+            -> IAM Policies
+            -> IAM Roles 
+
+        -> IAM Users 
+
+            -> Root User: The user created when you first create your AWS account 
+            is called the "root" user -> your_name@mail.com -> registered with aws account 
+            root user has FULL rights i.e no Restrictions 
+
+            -> IAM User: represents an AWS user that you may create (in IAM), 
+            who will have "varying degrees of access"(read/write) to the AWS account.
+            By default IAM users will not have any permissions.
+            IAM Users can access aws resources using 
+
+                    -> AWS Management Console: Human Based with Browser Login - username & password 
+
+                    -> AWS Programmatic Access: Softwares & Tools Based Login - access & secret key  
+
+            -> IAM Policy
+
+                -> A policy is an object in AWS that defines permissions. 
+
+            -> IAM Group: 
+            
+                -> It's an logical collection of IAM Users, used for organizing 
+                permissions in easy way.
