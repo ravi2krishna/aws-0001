@@ -551,3 +551,18 @@ Class - 15
             
                 -> It's an logical collection of IAM Users, used for organizing 
                 permissions in easy way.
+
+
+Class - 16
+==========
+
+    -> AWS CLI 
+
+        -> The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. 
+
+            -> Refer https://aws.amazon.com/cli/
+
+            -> https://docs.aws.amazon.com/cli/latest/
+
+    
+    -> AWS IAM Custom Policy Creation
