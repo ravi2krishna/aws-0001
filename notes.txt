@@ -566,3 +566,11 @@ Class - 16
 
     
     -> AWS IAM Custom Policy Creation
+
+
+Class - 17
+==========
+
+    -> IAM Roles 
+
+    
