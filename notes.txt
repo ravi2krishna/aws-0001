@@ -574,3 +574,27 @@ Class - 17
     -> IAM Roles 
 
     
+Class - 18
+==========
+
+    -> Security For Instances
+
+        -> So when we are talking about "increased security", what we want to focus on is, 
+        placing of EC2 instances that are holding our data in "private subnets".
+
+    -> However this causes some issues
+
+        -> We cannot serve traffic from private instances as there is no route 
+        to the open internet and also we cannot access or ssh into 
+        EC2 instances that are in private subnets
+
+            -> Solution for above is - Bastion Server / Jump Server 
+
+    -> Bastion Host / Server 
+
+        -> A Bastion Host is an EC2 instance that lives in a public subnet, 
+        and is used as a "gateway" for traffic that is destined for instances 
+        that live in private subnets.
+
+        -> A bastion host acts as a "portal" to access EC2 instances 
+        that are located in a private subnet.
