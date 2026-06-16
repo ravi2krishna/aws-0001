@@ -598,3 +598,16 @@ Class - 18
 
         -> A bastion host acts as a "portal" to access EC2 instances 
         that are located in a private subnet.
+
+
+Class - 19
+==========
+
+    -> We cannot install/update the software on those Private EC2 instances.
+
+        -> NAT Gateway
+
+            -> NAT Gateway allows resources in a private subnet to access the internet for
+            (system updates, external database connections, wget calls, OS patch, etc).
+
+            -> https://i.sstatic.net/2ihm3.png
