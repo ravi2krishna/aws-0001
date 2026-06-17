@@ -611,3 +611,33 @@ Class - 19
             (system updates, external database connections, wget calls, OS patch, etc).
 
             -> https://i.sstatic.net/2ihm3.png
+
+    
+Class - 20
+==========
+
+    -> Database Storage - IAAS - You are responsible for everything 
+
+        -> Preparing VPC 
+        -> Preparing Private Subnets 
+        -> Preparing Bastion Host 
+        -> Preparing NAT Gateway 
+
+        -> Setting Up Private EC2 Server 
+        -> Install OS 
+        -> Update OS 
+        -> Download Database Software - MySQL 
+        -> Install Database Software - MySQL 
+        -> etc 
+
+    -> Once Database Server is setup, then Developer will use Database
+
+        -> Database Connection Details 
+
+            -> Address Of Database 
+            -> Port Of Database
+            -> Username Of Database 
+            -> Password Of Database 
+
+        
+
