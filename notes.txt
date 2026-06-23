@@ -692,6 +692,9 @@ Class - 21
                 -> show databases;
 
 
+Class - 22
+==========
+
     -> Application Setup Process 
 
         -> First Setup Database Required For Application 
