@@ -854,3 +854,70 @@ Class - 22
                 -> cp ~/aws-rds-java/target/LoginWebApp.war ~/apache-tomcat-7.0.94/webapps/
 
                 -> Browse Public-IP:8080/LoginWebApp  
+
+
+Class - 23
+==========
+
+
+    -> SAAS - Completely vendor will take care 
+
+        -> Say i need monitoring solution 
+
+            -> We need to manually setup in IAAS 
+
+                -> https://assets.nagios.com/training/selfpaced/materials/Nagios_StartUp_Guide.pdf
+
+            -> Cloudwatch - Monitoring As Service
+
+                -> Monitor your Server for Metrics (CPU)
+
+                    -> If cpu of server is beyond 90%, send an email 
+
+            -> SimpleNotificationService(SNS) - Feedback As Service
+
+                -> If cpu of server is beyond 90%, then SNS will send email 
+
+    -> Login To Server 
+
+        -> sudo apt update -y && sudo apt install stress -y
+
+        -> stress --cpu 1 --timeout 10000 &
+
+
+Class - 24
+==========
+
+    -> Application should have following characteristics (Four Pillars Of Cloud)
+
+        -> Highly Available 
+
+            -> High availability in AWS ensures that applications are 
+                continuously accessible and operational
+
+                -> Use Multiple Availability Zones To Host Application 
+
+                -> Use Load Balancer To Route the Traffic Over Multiple Availability Zones for Failover 
+
+        -> Fault Tolerant 
+
+            -> Fault tolerance in AWS refers to the ability of a system to 
+                continue operating without interruption in the face of hardware failures
+
+                -> Self healing needs to be implemented 
+
+                -> Auto Scaling with Load Balancer Integration
+
+        -> Scalable  
+
+            -> Scalability in AWS refers to the ability of a system to handle 
+                increasing workloads and accommodate growing demands. 
+
+                -> Based on loads automatically Scale Up & Scale Down resources 
+
+                -> Cloudwatch + Dynamic Scaling Rules 
+
+            -> Security in AWS refers to the measures taken to protect cloud resources, 
+                data, and applications from unauthorized access.
+
+                    -> Use IAM Users, Policy, Roles, Security Groups, NACL's etc 
