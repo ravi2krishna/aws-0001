@@ -921,3 +921,8 @@ Class - 24
                 data, and applications from unauthorized access.
 
                     -> Use IAM Users, Policy, Roles, Security Groups, NACL's etc 
+
+Class - 25
+==========
+
+    -> Implement Highly Available, Fault Tolerant  and Scalable System 
